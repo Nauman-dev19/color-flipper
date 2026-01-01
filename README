@@ -1,0 +1,63 @@
+# Color Flipper Project
+
+## Overview
+
+The Color Flipper project is a simple JavaScript-based application that dynamically changes the background color of a webpage and automatically adjusts the text color to ensure proper contrast and readability.
+
+This project demonstrates practical usage of JavaScript fundamentals such as DOM manipulation, event handling, random number generation, and conditional logic.
+
+---
+
+## Features
+
+- Generates a random hexadecimal background color
+- Displays the generated color code on the screen
+- Automatically switches text color (light or dark) based on background brightness
+- Ensures better readability using brightness calculation logic
+
+---
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript (ES6 Modules)
+
+---
+
+## How It Works
+
+1. A button click triggers the color generator.
+2. Random RGB values are generated and converted into a HEX color.
+3. The background color of the page is updated.
+4. Brightness is calculated using the luminance formula.
+5. Text color changes automatically based on brightness value.
+
+---
+
+## Formula Used for Brightness
+
+(r × 299 + g × 587 + b × 114) / 1000
+
+---
+
+## Usage
+
+- Click the button to generate a new background color.
+- The displayed hex code reflects the current background color.
+- Text color adjusts automatically for optimal contrast.
+
+---
+
+## Learning Outcomes
+
+- Understanding RGB and HEX color formats
+- Applying conditional rendering using ternary operators
+- Writing clean and reusable JavaScript functions
+- Improving accessibility through contrast handling
+
+---
+
+## Author
+
+Noman Saeed
